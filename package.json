@@ -1,0 +1,32 @@
+{
+    "name": "wadparse.js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "prepack": "npm run build",
+        "prettier": "prettier .",
+        "format": "npm run prettier -- --write",
+        "docs:serve": "cd docusaurus && npm start",
+        "docs:build": "cd docusaurus && npm run build"
+    },
+    "engines": {
+        "node": ">=15.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/C1200/wadparse.js.git"
+    },
+    "author": "C1200",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/C1200/wadparse.js/issues"
+    },
+    "homepage": "https://github.com/C1200/wadparse.js#readme",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4"
+    }
+}

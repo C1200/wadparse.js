@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": false,
+        "module": "commonjs",
+        "strict": true,
+        "declaration": true
+    },
+    "include": ["./src/**/*"]
+}
