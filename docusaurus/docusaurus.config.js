@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'wadparse.js',
     tagline: 'A Wii WAD File parser for JavaScript',
-    url: 'https://C1200.js.org',
-    baseUrl: '/wadparse.js',
+    url: 'https://wadparse.c1200.cf',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
